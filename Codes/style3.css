@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,427&display=swap');
+
+body{
+    background: black;
+    overflow: visible;
+    overflow-x: hidden;
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    height: 8rem;
+    background: rgba(53, 52, 52, 0.945);
+    position: fixed;
+}
+ul{
+    display: flex;
+    float: right;
+}
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+a{
+    font-weight: 600;
+    font-family:"Exo 2";
+    color: floralwhite;
+    font-style: oblique;
+    font-size: xx-large;
+    text-decoration: none;
+    border: 1px rgb(14, 13, 13);
+    border-radius: 30px;
+    border-style: none;
+    display: inline-block;
+}
+h1{
+    font-weight: 600;
+    color: red;
+    font-family:"Macondo";
+    font-style: oblique;
+    margin: 10px;
+}
+h1 span{
+    font-family: "Kanit";
+    color: white;
+    font-style: italic;
+    font-weight: 750;
+}
+
+.services {
+    color: white;
+    background-color: black;
+    align-items: center;
+    display: contents;
+    justify-content: center;
+    font-style: italic;
+}
+    
+.services h1{
+    font-size: xx-large;
+    font-family: "Kanit";
+    font-weight: 800;
+    color:  crimson;
+}
+.services p{
+    color: white;
+    font-family: "Kanit";
+    font-size: xx-large; 
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/*copyright*/
+.Copyright{
+    color: white;
+    font-size: xx-large;
+    font-family: "Kanit";
+}
+.Copyright a{
+    color: blue;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    padding-inline: 3px;
+}
