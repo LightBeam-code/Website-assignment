@@ -91,6 +91,8 @@ h1 span{
     display: flex;
     justify-content: center;
     padding-inline: 3px;
-    
-    
+}
+.Copyright img{
+    width: 50%;
+    height: 100%;
 }
